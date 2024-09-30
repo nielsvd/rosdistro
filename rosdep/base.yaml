@@ -478,6 +478,16 @@ catch2:
   ubuntu:
     '*': [catch2]
     focal: null
+cbindgen:
+  alpine: [cbindgen]
+  arch: [cbindgen]
+  debian: [cbindgen]
+  fedora: [rust-cbindgen]
+  freebsd: [rust-cbindgen]
+  gentoo: [cbindgen]
+  nixos: [rust-cbindgen]
+  rhel: [cbindgen]
+  ubuntu: [cbindgen]
 cccc:
   debian: [cccc]
   gentoo: [dev-util/cccc]
